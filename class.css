@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@600&display=swap');
+body
+{background-image:url(https://forums.terraria.org/index.php?attachments/mush136-png.208190/);}
+
+/* สร้างคลาส */
+.CO{color: #6710da; 
+    font-family:'IBM Plex Sans Thai Looped', sans-serif; font-size: 20;}
+.fontchange{font-family: Arial, Helvetica, sans-serif; font-weight: 900; font-size: 20px;}
+
+/* สร้าง ID */
+#000{
+    font-family:'IBM Plex Sans Thai Looped', sans-serif; font-size: 20;}
+
+    .box{
+        width: 400px;
+    height: 400px;
+    color: #0018f3;
+    background-color :#ff0101;
+    box-shadow: 5px 10px #6710da;
+    }
+
+#reset,#submit{
+    font-family:'IBM Plex Sans Thai Looped', sans-serif; font-size: 20;
+    background-color: #6710da;
+}
