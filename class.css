@@ -16,6 +16,7 @@ body
     height: 400px;
     color: #0018f3;
     background-color :#ff0101;
+    box-shadow: 5px 10px #6710da;
     }
 
 #reset,#submit{
