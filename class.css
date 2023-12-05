@@ -12,7 +12,7 @@ body
     .box{
         width: 500px;
         height: 500px;
-        color: rgb(0, 0, 0));
+        color: rgb(0, 0, 0);
         background-color:rgb(230, 99, 99);
         text-align: center;
         border: 5px dashed #0a1af3;
