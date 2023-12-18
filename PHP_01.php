@@ -2,23 +2,15 @@
     <body>
        <h1>This is Pd3HP <?php  echo 'Hello World'?></h1> 
        <div>
-        <p>1</p>
-        <?php
-        $var_a = 1;
-        $var_a = "1";
-        print_r($var_a);
-        var_dump($var_a);
-        echo $var_a + 2; //12,3
-        {
-             echo "<h1>my h1</h1>";
-                //$ การสร้างตัวแปล
-               
-       ?>
-            <p>2</p>
-        <?php
+       <?php
+        $var_multiplier = 2;
+        $var_numberOfMultiples = 10; 
+        print_r("สูตรคูณแม่ " + multiplier + ":");
+        for (int i = 1; i <= numberOfMultiples; i++) {
+            $var_result = multiplier * i;
+            print_r(multiplier + " x " + i + " = " + result);
         }
         ?>
-            <p>3</p>
         </div>
     </body>
 </html>
