@@ -26,6 +26,7 @@ body
     .box:hover{
         background-color: rgba(81, 233, 182, 0.733);
         box-shadow: 20px 20px #000000b7; 
+
         
     }
     .box:hover{
@@ -36,3 +37,7 @@ body
     font-family:'IBM Plex Sans Thai Looped', sans-serif; font-size: 20;
     background-color: #6710da;
 }
+ p.itatic{
+    font-style: italic;
+    font-weight: bold;
+ }
