@@ -1,9 +1,8 @@
 <html>
     <body>
     <link rel="stylesheet" href="class.css">
-    <center> 
         <div class="box">
-            <div class="fontchange">
+            <center>   
                 <?php
                 $var_multiplier = 12;
                 $var_numberOfMultiples = 12;
@@ -13,14 +12,7 @@
                     echo "$var_multiplier x $i = $var_result<br>";
                 }
                 ?>
-            </div>
-        </div>
-        </center>
-        <div class="container1" > 
-        <img src="https://media.giphy.com/media/tJqyalvo9ahykfykAj/giphy.gif" alt="">
-        </div>
-        <div class="container2" >
-            <img src="https://media.giphy.com/media/Q22kcRdASuBvW/giphy.gif" alt="">
+            </center>
         </div>
     </body>
 </html>
