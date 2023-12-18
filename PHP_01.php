@@ -1,16 +1,17 @@
 <html>
     <body>
-       <h1>This is Pd3HP <?php  echo 'Hello World'?></h1> 
-       <div>
-       <?php
-        $var_multiplier = 2;
-        $var_numberOfMultiples = 10; 
-        print_r("สูตรคูณแม่ " + multiplier + ":");
-        for (int i = 1; i <= numberOfMultiples; i++) {
-            $var_result = multiplier * i;
-            print_r(multiplier + " x " + i + " = " + result);
-        }
-        ?>
+        <div>
+            <center> 
+            <?php
+            $var_multiplier = 12;
+            $var_numberOfMultiples = 12;
+            echo "สูตรคูณแม่ $var_multiplier <br>";
+            for ($i = 1; $i <= $var_numberOfMultiples; $i++) { 
+                $var_result = $var_multiplier * $i;
+                echo "$var_multiplier x $i = $var_result<br>";
+            }
+        ?></center>
+       
         </div>
     </body>
 </html>

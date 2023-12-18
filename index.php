@@ -1,24 +1,15 @@
 <html>
     <body>
-       <h1>This is Pd3HeP <?php  echo 'Hello World'?></h1> 
-       <div>
-        <p>1</p>
         <?php
-        $var_a = 1;
-        $var_a = "1";
-        print_r($var_a);
-        var_dump($var_a);
-        echo $var_a + 2; //12,3
-        {
-             echo "<h1>my h1</h1>";
-                //$ การสร้างตัวแปล
-               
-       ?>
-            <p>2</p>
-        <?php
+            $var_multiplier = 12;
+            $var_numberOfMultiples = 12;
+            echo "สูตรคูณแม่ $var_multiplier <br>";
+            for ($i = 1; $i <= $var_numberOfMultiples; $i++) { 
+                $var_result = $var_multiplier * $i;
+                echo "$var_multiplier x $i = $var_result<br>";
         }
         ?>
-            <p>3</p>
+       
         </div>
     </body>
 </html>
