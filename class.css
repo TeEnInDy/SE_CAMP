@@ -46,4 +46,34 @@ body{background-image:url(https://images.alphacoders.com/736/736461.png);}
         top: 5;
         
  }
- 
+
+/* ---------------- */
+.container10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-container {
+    width: 400px;
+    height: 1000px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(230, 99, 99);
+    text-align: center;
+    border: 5px dashed #0a1af3;
+    padding-top: 10px;
+    margin: 90px 25px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif; font-weight: 900; font-size: 20px;
+}
+.message-container:hover{
+    background-color: rgba(81, 233, 182, 0.733);
+    box-shadow: 20px 20px #000000b7; 
+}
+.message-container:hover{
+    transform: scale(1.3);
+}
+/* ---------------- */
